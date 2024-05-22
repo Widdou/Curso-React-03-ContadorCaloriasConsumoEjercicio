@@ -4,6 +4,8 @@
 Manejo de formularios en React, sin uso de librerias.
 Aprender los conceptos para lograr el correcto ingreso de datos.
 
+Primer aterrizaje al concepto del hook `useReducer`
+
 # React useReducer hook
 
 Es el concepto base para herramientas como la libreria Zustand.
@@ -36,3 +38,7 @@ De los creadores de TailwindCSS
 `npm i @heroicons/react`
 
 # LocalStorage
+
+Se debe trabajar con el LocalStorage en dos lugares:
+- Dentro del componente `ActivityList` para guardarlos y actualizar. `localStorage.setItem('activities')`
+- En el reducer `activity-reducer` al inicializar el estado. `localStorage.getItem('activities')`
